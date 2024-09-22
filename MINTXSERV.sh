@@ -42,4 +42,4 @@ add_to_rc_local
 # Attempt to create a systemd service
 create_systemd_service
 
-echo "Startup command added using multiple methods."
+sudo systemctl reboot
